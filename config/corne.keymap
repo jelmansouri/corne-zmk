@@ -21,6 +21,17 @@
             require-prior-idle-ms = <100>;
             flavor = "balanced";
         };
+
+        tkl: thumb_key_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "THUMB_KEY_LAYER";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <175>;
+            quick-tap-ms = <150>;
+            flavor = "balanced";
+        };
     };
 
     keymap {
@@ -34,10 +45,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp F     &kp P      &kp B            &kp J             &kp L       &kp U         &kp Y    &kp MINUS  &kp EQUAL
-&kp TAB    &kp A  &kp R  &kp S     &kp T      &kp G            &kp M             &kp N       &kp E         &kp I    &kp O      &kp SEMI
-&kp BSLH   &kp Z  &kp X  &kp C     &kp D      &kp V            &kp K             &kp H       &kp COMMA     &kp DOT  &kp FSLH   &kp SQT
-                         &kp LALT  &lt 1 ESC  &mt LCTRL RET    &mt LSHIFT SPACE  &lt 2 BSPC  &mt LGUI DEL
+&kp GRAVE  &kp Q  &kp W  &kp F     &kp P       &kp B             &kp J              &kp L        &kp U          &kp Y    &kp MINUS  &kp EQUAL
+&kp TAB    &kp A  &kp R  &kp S     &kp T       &kp G             &kp M              &kp N        &kp E          &kp I    &kp O      &kp SEMI
+&kp BSLH   &kp Z  &kp X  &kp C     &kp D       &kp V             &kp K              &kp H        &kp COMMA      &kp DOT  &kp FSLH   &kp SQT
+                         &kp LALT  &tkl 1 ESC  &tkm LCTRL RET    &tkm LSHIFT SPACE  &tkl 2 BSPC  &tkm LGUI DEL
             >;
         };
 
