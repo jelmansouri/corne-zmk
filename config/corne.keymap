@@ -44,6 +44,7 @@
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
+            display-name = "base";
             bindings = <
 &kp GRAVE  &kp Q  &kp W  &kp F     &kp P       &kp B             &kp J              &kp L        &kp U          &kp Y    &kp MINUS  &kp EQUAL
 &kp TAB    &kp A  &kp R  &kp S     &kp T       &kp G             &kp M              &kp N        &kp E          &kp I    &kp O      &kp SEMI
@@ -59,6 +60,7 @@
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
+            display-name = "lower";
             bindings = <
 &bt BT_CLR    &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_SEL 2    &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
 &bt BT_SEL 0  &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 3    &kp DOT    &kp N4  &kp N5  &kp N6  &kp PLUS   &none
@@ -74,6 +76,7 @@
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
+            display-name = "raise";
             bindings = <
 &none   &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PRCNT    &none     &kp PG_DN  &kp PG_UP  &none      &none  &none
 &none   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &none
@@ -83,6 +86,7 @@
         };
 
         nav_3d {
+            display-name = "nav_3d";
             bindings = <
 &trans  &kp TAB    &kp Q  &kp W   &kp E   &kp R     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LSHFT  &kp A  &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans  &trans
