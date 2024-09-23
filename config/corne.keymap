@@ -78,10 +78,10 @@
 
             display-name = "raise";
             bindings = <
-&none   &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PRCNT    &none     &kp PG_DN  &kp PG_UP  &none      &none  &none
-&none   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &none
-&tog 3  &none      &kp LBKT  &kp RBKT   &kp LBRC  &kp RBRC     &kp HOME  &kp PLUS   &kp LBRC   &kp END    &none  &none
-                             &trans     &trans    &trans       &trans    &trans     &trans
+&none  &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PRCNT    &none     &kp PG_DN  &kp PG_UP  &none      &none  &none
+&none  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &none
+&to 3  &none      &kp LBKT  &kp RBKT   &kp LBRC  &kp RBRC     &kp HOME  &none      &none      &kp END    &none  &none
+                            &trans     &trans    &trans       &trans    &trans     &trans
             >;
         };
 
@@ -90,7 +90,7 @@
             bindings = <
 &trans  &kp TAB    &kp Q  &kp W   &kp E   &kp R     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LSHFT  &kp A  &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans  &trans
-&tog 0  &kp LCTRL  &kp Z  &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &kp LCTRL  &kp Z  &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  &trans
                           &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
