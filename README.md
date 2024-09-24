@@ -18,11 +18,14 @@ My day-to-day work revolves around a specific set of applications, so I’ve cus
 
 Operating system wise, I actually switch quite often contexts, my work machine is a Windows machine, I also use MacOS for work to target iOS and MacOS. And my personal machine runs on Arch. My home lab consists of a bunch of Linux machines, running either Debian or Ubuntu.
 
-I quite often use the mouse on the right hand while using shortcuts with my left hand, these shortcut often involve the Ctrl modifier so it was important to keep if on the left hand.
+Some element that drove to some choices:
+* I quite often use the mouse on the right hand while using shortcuts with my left hand, these shortcut often involve the Ctrl modifier so it was important to keep if on the left hand.
+* Moving to a given line is usually done through going into the lower layer (holding the middle left thumb key) typing the relative line number, then switching to the raise layer while usually still holding the lower layer and use one of the arrow keys layed out over the hjkl keys in a qwerty keyboard.
+* The function heys sit on the left cluster, since I usually use shift 
 
 Known issues: 
-* Space + Capital letter on nvim.
-* Ctrl + shft + click.
+* I use Space as a leader in nvim, Space + Capital letter on nvim is a no go as double tapping space yields a repeat.
+* I don't have a Shift on the right cluster so Shift + using the mouse is not possible.
 
 ## Layout:
 
