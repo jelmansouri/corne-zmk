@@ -26,11 +26,11 @@ include:
     artifact-name: nice_corne_right
   - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Typeractive_Corne\"
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"TyperactiveCorne\"
     artifact-name: typeractive_corne_left
   - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Keeb_Corne\"
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"KeebCorne\"
     artifact-name: keeb_corne_left
   - board: nice_nano_v2
     shield: settings_reset
