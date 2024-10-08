@@ -19,7 +19,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <100>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
         };
 
         tkl: thumb_key_layer {
