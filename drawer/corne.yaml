@@ -68,7 +68,7 @@ layers:
   - '6'
   - +
   - ''
-  - ''
+  - {t: nav_3d, h: toggle}
   - F1
   - F2
   - F3
@@ -111,7 +111,7 @@ layers:
   - RIGHT
   - ''
   - BT NXT
-  - {t: nav_3d, h: toggle}
+  - ''
   - ''
   - '['
   - ']'
@@ -141,7 +141,7 @@ layers:
   - ''
   - ''
   - ''
-  - BT CLR
+  - ''
   - ''
   - LSHFT
   - A
@@ -149,11 +149,11 @@ layers:
   - D
   - F
   - ''
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
   - ''
   - ''
-  - BT NXT
+  - ''
+  - ''
+  - ''
   - {t: base, h: toggle}
   - LCTRL
   - Z
@@ -161,14 +161,14 @@ layers:
   - C
   - V
   - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
   - ''
-  - BT PRV
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ESCAPE
+  - SPACE
+  - ''
+  - ''
+  - ''
