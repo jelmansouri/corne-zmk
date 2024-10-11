@@ -34,6 +34,15 @@
         };
     };
 
+    macros {
+        alt_f4: alt_f4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp F4>;
+            label = "ALT_F4";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -51,7 +60,7 @@
             display-name = "lower";
             bindings = <
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp PRINTSCREEN    &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &none              &kp DOT    &kp N4  &kp N5  &kp N6  &kp PLUS   &none
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &alt_f4            &kp DOT    &kp N4  &kp N5  &kp N6  &kp PLUS   &none
 &to 3   &kp F1  &kp F2   &kp F3   &kp F4   &none              &kp N0     &kp N1  &kp N2  &kp N3  &kp SLASH  &none
                          &trans   &trans   &trans             &trans     &trans  &trans
             >;
