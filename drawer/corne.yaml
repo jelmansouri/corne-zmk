@@ -110,7 +110,7 @@ layers:
   - UP
   - RIGHT
   - ''
-  - BT NXT
+  - BT PRV
   - ''
   - ''
   - '['
@@ -122,7 +122,7 @@ layers:
   - ''
   - END
   - ''
-  - BT PRV
+  - BT NXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
