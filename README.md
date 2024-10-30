@@ -8,7 +8,7 @@ The layout I use now is tailored specifically to my workflow, and others may not
 I might give home row mods another try later, but  i find myself currently quite productive with my current layout.
 
 My day-to-day work involves using a specific set of applications heavily, so I’ve customized my layout to optimize my workflow with them. Here are the apps I use daily:
-* Neovim: My primary editor for experimenting and handling certain work-related tasks. I’ve built muscle memory around the hjkl, so my raise layer contains the arrow keys layed out horizontally on the home row, this allows me to leverage the same muscle memory on all my apps, otherwise, most commands are mnemonic-based for me.
+* Neovim: My primary editor for experimenting and handling certain work-related tasks. I’ve built muscle memory around the hjkl, so my raise layer contains the arrow keys laid out horizontally on the home row, this allows me to leverage the same muscle memory on all my apps, otherwise, most commands are mnemonic-based for me.
 * JetBrains IDEs: This is what my team primarily uses, and I usually try to use it as much as possible when interacting with the Unreal codebase, so I get a feel of perf bottlenecks with the IDE and the DevEx of my team. I use IdeaVim with a custom config to make it as much as possible on par with my Neovim configuration.
 * Visual Studio: I use this occasionally, primarily for debugging. I used to write a lot of code using VS, but nowadays, I mostly use Visual Studio for debugging and shortcuts like F10, F11, and F12 and shifted variants are hard wired in my brain so I maintain this mapping in my other editors and IDEs when interacting with a debugger.
 * Terminals and shell: zsh and powershell on Windows terminal and Wezterm on other operating systems. Note that I use the builtin multiplexer of Wezterm. 
@@ -21,7 +21,7 @@ Operating system wise, I actually switch quite often contexts, my work machine i
 
 Some element that drove to some choices:
 * I quite often use the mouse on the right hand while using shortcuts with my left hand, these shortcut often involve the Ctrl modifier so it was important to keep if on the left hand, the 3D navigation layout have a subset of Qwerty letters centered around the WASD keys falling on the default rest position.
-* Moving to a given line is usually done through going into the lower layer (holding the middle left thumb key) typing the relative line number, then switching to the raise layer while usually still holding the lower layer and use one of the arrow keys layed out over the hjkl keys in a qwerty keyboard.
+* Moving to a given line is usually done through going into the lower layer (holding the middle left thumb key) typing the relative line number, then switching to the raise layer while usually still holding the lower layer and use one of the arrow keys laid out over the hjkl keys in a qwerty keyboard.
 * The function heys sit on the left cluster, since I usually use shift + function keys when debugging.
 
 Known issues: 
