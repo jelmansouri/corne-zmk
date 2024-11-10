@@ -48,6 +48,20 @@
 
             label = "ALT_F4";
         };
+
+        macos_grap_capture: macos_grap_capture {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND &kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp NUMBER_4>,
+                <&macro_release>,
+                <&kp LEFT_COMMAND &kp LEFT_SHIFT>;
+
+            label = "MACOS_GRAP_CAPTURE";
+        };
     };
 
     keymap {
@@ -66,20 +80,20 @@
         lower_layer {
             display-name = "lower";
             bindings = <
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp PRINTSCREEN    &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &alt_f4            &kp DOT    &kp N4  &kp N5  &kp N6  &kp PLUS   &none
-&to 3   &kp F1  &kp F2   &kp F3   &kp F4   &none              &kp N0     &kp N1  &kp N2  &kp N3  &kp SLASH  &none
-                         &trans   &trans   &trans             &trans     &trans  &trans
+&macos_grap_capture  &kp F9  &kp F10  &kp F11  &kp F12  &kp PRINTSCREEN     &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
+&trans               &kp F5  &kp F6   &kp F7   &kp F8   &alt_f4             &kp DOT    &kp N4  &kp N5  &kp N6  &kp PLUS   &none
+&to 3                &kp F1  &kp F2   &kp F3   &kp F4   &kp LEFT_CONTROL    &kp N0     &kp N1  &kp N2  &kp N3  &kp SLASH  &none
+                                      &trans   &trans   &trans              &trans     &trans  &trans
             >;
         };
 
         raise_layer {
             display-name = "raise";
             bindings = <
-&trans  &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PRCNT    &none     &kp PG_DN  &kp PG_UP  &none      &none  &bt BT_CLR
-&trans  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &bt BT_PRV
-&none   &none      &kp LBKT  &kp RBKT   &kp LBRC  &kp RBRC     &kp HOME  &none      &none      &kp END    &none  &bt BT_NXT
-                             &trans     &trans    &trans       &trans    &trans     &trans
+&trans  &kp EXCL        &kp AT    &kp HASH   &kp DLLR  &kp PRCNT    &none     &kp PG_DN  &kp PG_UP  &none      &none  &bt BT_CLR
+&trans  &kp CARET       &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &bt BT_PRV
+&none   &kp LEFT_SHIFT  &kp LBKT  &kp RBKT   &kp LBRC  &kp RBRC     &kp HOME  &none      &none      &kp END    &none  &bt BT_NXT
+                                  &trans     &trans    &trans       &trans    &trans     &trans
             >;
         };
 
