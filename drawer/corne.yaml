@@ -44,7 +44,7 @@ layers:
   - {t: BSPC, h: raise}
   - {t: DEL, h: LGUI}
   lower:
-  - {t: ▽, type: trans}
+  - '&macos_grap_capture'
   - F9
   - F10
   - F11
@@ -73,7 +73,7 @@ layers:
   - F2
   - F3
   - F4
-  - ''
+  - LEFT CONTROL
   - '0'
   - '1'
   - '2'
@@ -112,7 +112,7 @@ layers:
   - ''
   - BT PRV
   - ''
-  - ''
+  - LEFT SHIFT
   - '['
   - ']'
   - '{'
