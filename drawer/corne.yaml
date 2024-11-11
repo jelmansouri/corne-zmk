@@ -49,19 +49,19 @@ layers:
   - F10
   - F11
   - F12
-  - PRINTSCREEN
+  - LEFT SHIFT
   - '*'
   - '7'
   - '8'
   - '9'
   - '-'
   - '='
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - F5
   - F6
   - F7
   - F8
-  - '&alt_f4'
+  - Sft+ LEFT CONTROL
   - .
   - '4'
   - '5'
@@ -73,13 +73,13 @@ layers:
   - F2
   - F3
   - F4
-  - LEFT CONTROL
+  - '&alt_f4'
   - '0'
   - '1'
   - '2'
   - '3'
   - /
-  - ''
+  - LEFT CONTROL
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -111,8 +111,8 @@ layers:
   - RIGHT
   - ''
   - BT PRV
-  - ''
   - LEFT SHIFT
+  - ''
   - '['
   - ']'
   - '{'
