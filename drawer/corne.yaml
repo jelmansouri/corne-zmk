@@ -44,19 +44,19 @@ layers:
   - {t: BSPC, h: raise}
   - {t: DEL, h: LGUI}
   lower:
-  - '&macos_grap_capture'
+  - PRINTSCREEN
   - F9
   - F10
   - F11
   - F12
-  - LEFT SHIFT
+  - '&macos_grap_capture'
   - '*'
   - '7'
   - '8'
   - '9'
   - '-'
   - '='
-  - PRINTSCREEN
+  - LEFT SHIFT
   - F5
   - F6
   - F7
@@ -99,7 +99,7 @@ layers:
   - ''
   - ''
   - BT CLR
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - ^
   - '&'
   - '*'
@@ -111,7 +111,7 @@ layers:
   - RIGHT
   - ''
   - BT PRV
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - ''
   - '['
   - ']'
