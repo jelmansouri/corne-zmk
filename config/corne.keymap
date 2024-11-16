@@ -34,36 +34,6 @@
         };
     };
 
-    macros {
-        alt_f4: alt_f4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp F4>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
-
-            label = "ALT_F4";
-        };
-
-        macos_grap_capture: macos_grap_capture {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_COMMAND &kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&kp NUMBER_4>,
-                <&macro_release>,
-                <&kp LEFT_COMMAND &kp LEFT_SHIFT>;
-
-            label = "MACOS_GRAP_CAPTURE";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -80,9 +50,9 @@
         lower_layer {
             display-name = "lower";
             bindings = <
-&kp PRINTSCREEN  &kp F9  &kp F10  &kp F11  &kp F12  &macos_grap_capture     &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
+&kp PRINTSCREEN  &kp F9  &kp F10  &kp F11  &kp F12  &kp LG(LS(NUMBER_4))    &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
 &kp LEFT_SHIFT   &kp F5  &kp F6   &kp F7   &kp F8   &kp LS(LEFT_CONTROL)    &kp DOT    &kp N4  &kp N5  &kp N6  &kp PLUS   &none
-&to 3            &kp F1  &kp F2   &kp F3   &kp F4   &alt_f4                 &kp N0     &kp N1  &kp N2  &kp N3  &kp SLASH  &kp LEFT_CONTROL
+&to 3            &kp F1  &kp F2   &kp F3   &kp F4   &kp LA(F4)              &kp N0     &kp N1  &kp N2  &kp N3  &kp SLASH  &kp LEFT_CONTROL
                                   &trans   &trans   &trans                  &trans     &trans  &trans
             >;
         };
