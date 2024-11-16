@@ -49,7 +49,7 @@ layers:
   - F10
   - F11
   - F12
-  - '&macos_grap_capture'
+  - Gui+Sft+ 4
   - '*'
   - '7'
   - '8'
@@ -73,7 +73,7 @@ layers:
   - F2
   - F3
   - F4
-  - '&alt_f4'
+  - Alt+ F4
   - '0'
   - '1'
   - '2'
