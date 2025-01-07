@@ -50,10 +50,10 @@
         lower_layer {
             display-name = "lower";
             bindings = <
-&kp PRINTSCREEN  &kp F9  &kp F10  &kp F11  &kp F12  &kp LG(LS(NUMBER_4))    &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
-&kp LEFT_SHIFT   &kp F5  &kp F6   &kp F7   &kp F8   &kp LS(LEFT_CONTROL)    &kp DOT    &kp N4  &kp N5  &kp N6  &kp PLUS   &none
-&to 3            &kp F1  &kp F2   &kp F3   &kp F4   &kp LA(F4)              &kp N0     &kp N1  &kp N2  &kp N3  &kp SLASH  &kp LEFT_CONTROL
-                                  &trans   &trans   &trans                  &trans     &trans  &trans
+&to 3             &kp F9  &kp F10  &kp F11  &kp F12  &kp PRINTSCREEN    &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL
+&kp LEFT_SHIFT    &kp F5  &kp F6   &kp F7   &kp F8   &kp LA(F4)         &kp DOT    &kp N4  &kp N5  &kp N6  &kp PLUS   &none
+&kp LEFT_CONTROL  &kp F1  &kp F2   &kp F3   &kp F4   &kp LEFT_ALT       &kp N0     &kp N1  &kp N2  &kp N3  &kp SLASH  &kp LEFT_CONTROL
+                                   &trans   &trans   &trans             &trans     &trans  &trans
             >;
         };
 
@@ -70,9 +70,9 @@
         nav_3d {
             display-name = "nav_3d";
             bindings = <
-&none  &kp TAB    &kp Q  &kp W         &kp E       &kp R        &none  &none  &none  &none  &none  &none
+&to 0  &kp TAB    &kp Q  &kp W         &kp E       &kp R        &none  &none  &none  &none  &none  &none
 &none  &kp LSHFT  &kp A  &kp S         &kp D       &kp F        &none  &none  &none  &none  &none  &none
-&to 0  &kp LCTRL  &kp Z  &kp X         &kp C       &kp V        &none  &none  &none  &none  &none  &none
+&none  &kp LCTRL  &kp Z  &kp X         &kp C       &kp V        &none  &none  &none  &none  &none  &none
                          &kp LEFT_ALT  &kp ESCAPE  &kp SPACE    &none  &none  &none
             >;
         };
