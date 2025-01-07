@@ -111,7 +111,7 @@ layers:
   - RIGHT
   - ''
   - BT PRV
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
   - ''
   - '['
   - ']'
