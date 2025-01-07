@@ -44,12 +44,12 @@ layers:
   - {t: BSPC, h: raise}
   - {t: DEL, h: LGUI}
   lower:
-  - PRINTSCREEN
+  - {t: nav_3d, h: toggle}
   - F9
   - F10
   - F11
   - F12
-  - Gui+Sft+ 4
+  - PRINTSCREEN
   - '*'
   - '7'
   - '8'
@@ -61,19 +61,19 @@ layers:
   - F6
   - F7
   - F8
-  - Sft+ LEFT CONTROL
+  - Alt+F4
   - .
   - '4'
   - '5'
   - '6'
   - +
   - ''
-  - {t: nav_3d, h: toggle}
+  - LEFT CONTROL
   - F1
   - F2
   - F3
   - F4
-  - Alt+ F4
+  - LEFT ALT
   - '0'
   - '1'
   - '2'
@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   nav_3d:
-  - ''
+  - {t: base, h: toggle}
   - TAB
   - Q
   - W
@@ -154,7 +154,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: base, h: toggle}
+  - ''
   - LCTRL
   - Z
   - X
