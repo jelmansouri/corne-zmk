@@ -50,7 +50,7 @@ layers:
   - F11
   - F12
   - PRINTSCREEN
-  - '*'
+  - /
   - '7'
   - '8'
   - '9'
@@ -62,7 +62,7 @@ layers:
   - F7
   - F8
   - Alt+F4
-  - .
+  - '*'
   - '4'
   - '5'
   - '6'
@@ -78,14 +78,14 @@ layers:
   - '1'
   - '2'
   - '3'
-  - /
+  - .
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   raise:
   - {t: ▽, type: trans}
   - '!'
