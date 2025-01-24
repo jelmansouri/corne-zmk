@@ -78,14 +78,14 @@ layers:
   - '1'
   - '2'
   - '3'
-  - .
+  - ''
   - LEFT CONTROL
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
   - '!'
