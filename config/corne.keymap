@@ -60,10 +60,10 @@
         raise_layer {
             display-name = "raise";
             bindings = <
-&trans            &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PRCNT    &kp HOME          &kp PG_DN          &kp PG_UP      &kp END           &none  &bt BT_CLR
-&kp LEFT_SHIFT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR     &kp LEFT          &kp DOWN           &kp UP         &kp RIGHT         &none  &bt BT_PRV
-&kp LEFT_CONTROL  &none      &none     &none      &kp LBRC  &kp RBRC     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN  &none  &bt BT_NXT
-                                       &trans     &trans    &trans       &trans            &trans             &trans
+&trans            &kp EXCL   &kp AT    &kp HASH   &kp DLLR          &kp PRCNT            &kp HOME        &kp PG_DN        &kp PG_UP  &kp END    &none  &bt BT_CLR
+&kp LEFT_SHIFT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR          &kp RPAR             &kp LEFT        &kp DOWN         &kp UP     &kp RIGHT  &none  &bt BT_PRV
+&kp LEFT_CONTROL  &none      &none     &none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_BRACE  &kp RIGHT_BRACE  &none      &none      &none  &bt BT_NXT
+                                       &trans     &trans            &trans               &trans          &trans           &trans
             >;
         };
 
